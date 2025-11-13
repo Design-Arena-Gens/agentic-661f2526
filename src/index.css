@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b0f16;
+  --fg: #e6eef8;
+  --muted: #97a3b6;
+  --accent: #7c9eff;
+  --panel: #0f1521;
+}
+
+.light {
+  --bg: #f7f9fc;
+  --fg: #0b1220;
+  --muted: #51607a;
+  --accent: #345ff6;
+  --panel: #ffffff;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+* { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.12); border-radius: 8px; }
